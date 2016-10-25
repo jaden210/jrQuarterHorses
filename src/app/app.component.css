@@ -1,0 +1,248 @@
+md-sidenav-layout {
+    height: 100vh;
+}
+
+md-sidenav {
+    width: 250px;
+    background-color: white;
+}
+
+md-card {
+    margin: 8px;
+}
+
+.grid-img {
+    max-width: 275px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.title {
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: Roboto, "Helvetica Neue", sans-serif !important;
+}
+
+.toolbar {
+  background-color: #00BCD4;
+}
+
+
+
+
+
+
+
+button#pro-button { /* NOTE: set this style on app.component.css for sidenav */
+  order: 1;
+  border: none;
+  background: none;
+  z-index: 2;
+}
+
+img#book-logo { /* NOTE: set this style on app.component.css for sidenav */
+  width: 22px;
+}
+
+span#pro { /* NOTE: set this style on app.component.css for sidenav */
+  order: 2;
+  font-size: 24px !important;
+  margin-top: -4px;
+  margin-left: 10px;
+}
+
+span#route { /* NOTE: set this style on app.component.css for sidenav */
+  order: 3;
+  text-align: left;
+  padding-left: 12px;
+  font-weight: lighter !important;
+  color: #90A4AE !important;
+  font-size: 24px !important;
+  margin-top: -4px;
+}
+
+span#fill-remaining-space { /* this is to push content to the far right */
+  order: 4;
+  flex-grow: 5;
+}
+
+span#active-location { /* css for the location displayed */
+  order: 5;
+  text-align: right;
+}
+
+button.location-button { /* carrot for locations dropdown */
+  padding-top: 6px;
+  order: 6;
+  border: none;
+  background: none;
+}
+
+div#locations-menu { /* container for locations menu */
+  position: absolute;
+  top: 60px;
+  right: 0;
+  margin-right: 120px;
+  min-width: 180px;
+  z-index: 3;
+}
+
+div#locations-carrot { /* triangle at top of menu */
+  top: -12px;
+  margin-right: 7px;
+  width: 0px;
+  height: 0px;
+  right: 0;
+  position: absolute;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  z-index: 2;
+  border-bottom-color: #fff;
+}
+
+/* Menu Content (Hidden by Default) */
+.menu {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 1px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 3;
+    border-radius: 2px;
+    padding-top: 4px;
+    padding-bottom: 8px;
+}
+
+.flex-item {
+  width: 33%;
+  padding-bottom: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.toolbar-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Links inside the dropdown */
+.menu a {
+    padding: 12px 16px;
+    margin: 0px -16px;
+    text-decoration: none;
+    display: block;
+    font-family: roboto;
+    font-size: 13px;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Change color of dropdown links on hover */
+.menu a:hover {
+  background-color: #eee;
+  }
+
+button#apps-icon-button { /* apps button */
+  order: 7;
+  background: none;
+  border: none;
+  height: auto;
+  line-height: inherit;
+  margin-right: 16px;
+  margin-left: 20px;
+}
+
+div#apps-menu { /* menu for app routes */
+  position: absolute;
+  top: 60px;
+  right: 0;
+  z-index: 3;
+  width: 320px;
+  margin-right: 20px;
+  padding: 16px;
+  padding: 40px 0 8px 0;
+  box-shadow: 1px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+#carrot { /* carrot for apps menu */
+  top: -12px;
+  margin-right: 51px;
+  width: 0px;
+  height: 0px;
+  right: 0;
+  position: absolute;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  z-index: 2;
+  border-bottom-color: #fff;
+}
+
+.flex-container { /* layout for apps menu */
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#account-icon-button { /* button for user account */
+  order: 8;
+  background: none;
+  border: none;
+  cursor: pointer;
+  height: auto;
+  line-height: inherit;
+}
+
+#user-menu {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  margin-right: 12px;
+  min-width: 180px;
+  z-index: 3;
+}
+
+#user-carrot {
+  top: -12px;
+  margin-right: 7px;
+  width: 0px;
+  height: 0px;
+  right: 0;
+  position: absolute;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  z-index: 2;
+  border-bottom-color: #fff;
+}
+
+button { /* general setting for all buttons here */
+  cursor: pointer;
+  outline: none;
+}
+
+button i.material-icons { /* paints all material icons white in toolbar */
+  color: #fff;
+}
+
+img#logo {
+    width: 75px;
+}
+
+p {
+  text-align: center;
+  margin: 0px;
+}
+
+a { /* gets rid of the underline on a tags */
+  text-decoration: none !important;
+}

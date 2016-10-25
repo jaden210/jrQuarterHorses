@@ -1,0 +1,18 @@
+
+<div class="container">
+
+<div *ngFor="let horse of _appService.horses">
+<md-card>
+  <div md-card-image>
+    <img class="grid-img" [src]="horse.image">
+  </div>
+  <md-card-title>
+    <span class="title">{{horse.name}}</span>
+    <span class="price">{{horse.bidPrice ? horse.bidPrice : horse.initalPrice | currency: 'USD':true:'1.0-0'}}</span>
+  </md-card-title>
+  <md-card-subtitle>
+    <span>{{horse.summary}}</span>
+  </md-card-subtitle>
+</md-card>
+</div>
+</div>

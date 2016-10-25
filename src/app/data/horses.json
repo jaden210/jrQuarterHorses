@@ -1,0 +1,27 @@
+[
+    {"id": 1,
+     "name": "timmy",
+      "image1": "./assets/2016-filly.jpg",
+      "image2": "./assets/2016-filly.jpg",
+      "image3": "./assets/2016-filly.jpg",
+      "image4": "./assets/2016-filly.jpg",
+      "initalPrice": "2500",
+      "bidPrice": null,
+      "highBidderId": null, 
+      "bidStartDate": "10-20-2016",
+      "bidEndDate": "10-25-2016",
+      "summary": "2016 - this is a good horse", 
+      "description": "put a long description here", 
+      "tags": ["1", "blue", "tall"],
+      "isSold": false
+    },
+    
+    {"id": 1, "name": "john", "image": "./assets/2016-filly.jpg", "initalPrice": 2500, "bidPrice": 2300, "reservePrice": 2600, "highBidderId": null, "summary": "2016 - this is a good horse", "description": "put a long description here", "tags": ["1", "blue", "tall"] },
+    {"id": 1, "name": "lightning", "image": "./assets/2016-filly.jpg", "initalPrice": 2500, "bidPrice": 2300, "reservePrice": 2600, "highBidderId": null, "summary": "2016 - this is a good horse", "description": "put a long description here", "tags": ["1", "blue", "tall"] },
+    {"id": 1, "name": "big bucker roo", "image": "./assets/2016-filly.jpg", "initalPrice": 2500, "bidPrice": 2300, "reservePrice": 2600, "highBidderId": null, "summary": "2016 - this is a good horse", "description": "put a long description here", "tags": ["1", "blue", "tall"] },
+    {"id": 1, "name": "black sabbath", "image": "./assets/2016-filly.jpg", "initalPrice": 2500, "bidPrice": 2300, "reservePrice": 2600, "highBidderId": null, "summary": "2016 - this is a good horse", "description": "put a long description here", "tags": ["1", "blue", "tall"] },
+    {"id": 1, "name": "jeff", "image": "./assets/2016-filly.jpg", "initalPrice": 2500, "bidPrice": null, "reservePrice": 2600, "highBidderId": null, "summary": "2016 - this is a good horse", "description": "put a long description here", "tags": ["1", "blue", "tall"] },
+    {"id": 1, "name": "cash", "image": "./assets/2016-filly.jpg", "initalPrice": 2500, "bidPrice": 2300, "reservePrice": 2600, "highBidderId": null, "summary": "2016 - this is a good horse", "description": "put a long description here", "tags": ["1", "blue", "tall"] },
+    {"id": 1, "name": "jed", "image": "./assets/2016-filly.jpg", "initalPrice": 2500, "bidPrice": 2300, "reservePrice": 2600, "highBidderId": null, "summary": "2016 - this is a good horse", "description": "put a long description here", "tags": ["1", "blue", "tall"] }    
+] 
+

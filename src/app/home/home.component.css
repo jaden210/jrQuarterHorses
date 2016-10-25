@@ -1,0 +1,12 @@
+md-card-title {
+    display: flex;
+}
+
+.title {
+    width: 173px;
+}
+
+.price {
+    float: right;
+    color: #F44336;
+}

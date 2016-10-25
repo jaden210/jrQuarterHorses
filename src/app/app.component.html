@@ -1,0 +1,37 @@
+
+  <md-sidenav-layout>
+    <md-sidenav #sidenav [opened]="false" (open)="mybutton.focus()">
+      Start Sidenav.
+      <br>
+      <button md-button #mybutton (click)="sidenav.close()">Close</button>
+    </md-sidenav>
+    <md-toolbar class="toolbar">
+      <button md-icon-button style="background-color:transparent" (click)="sidenav.open()">
+        <i class="material-icons">menu</i>
+      </button> 
+      <span class="title">Jr Quarter Horses</span>
+
+      <!-- user menu button -->
+      <button id="account-icon-button" (click)="userMenu = true">
+        <i class="material-icons">account_box</i>
+      </button>
+
+      <!-- user menu -->
+      <div class="overlay" *ngIf='userMenu' (click)="userMenu = false"></div>
+      <div class="menu" id="user-menu" *ngIf="userMenu">
+        <div id="user-carrot"></div>
+        <md-list dense>
+          <md-list-item>
+            <a class="menu-content">Logged in as</a>
+          </md-list-item>
+          <md-list-item>
+            <a class="menu-content" (click)="userMenu = false">Logout</a>
+          </md-list-item>
+        </md-list>
+      </div>
+    </md-toolbar>
+
+
+    <app-home></app-home>
+
+  </md-sidenav-layout>
