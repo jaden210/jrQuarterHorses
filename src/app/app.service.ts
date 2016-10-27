@@ -5,7 +5,7 @@ import { Observable }                                 from 'rxjs/Observable';
 @Injectable()
 export class AppService {
 
-url = "app/data/horses.json";
+url = "./assets/data/horses.json";
 
   constructor(private _http: Http) { }
 horses: any;
