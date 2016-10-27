@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit {
 
 
   ngOnInit() {
-    this._appService.getHorses();
+    // this._appService.getHorses();
   }
 
 }
